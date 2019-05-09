@@ -20,7 +20,7 @@ def convert_num(strs):
 	return float_
 
 #read scaped links from scrapy file
-urls = open_csv('bh_links.csv')[10:]
+urls = open_csv('bh_links.csv')[9:]
 
 #set driver and initiate csv file to store result
 driver = webdriver.Chrome(r'D:\chromedriver_win32\chromedriver.exe')

@@ -48,7 +48,7 @@ for url in urls:
 		conbine = list(zip(specTopic, specDetail))
 		for i, j in conbine:
 			review_dict[i] = j
-			print(review_dict)
+		print(review_dict)
 	except:
 		continue
 	writer.writerow(review_dict.items())
